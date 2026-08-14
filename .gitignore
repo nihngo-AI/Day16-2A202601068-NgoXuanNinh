@@ -18,5 +18,8 @@ runs/
 # committed if it ever lands here: it is how the scored round stays scored.
 phases/private/
 
+# Local secrets — real-model credentials, never committed.
+.env
+
 # macOS
 .DS_Store
